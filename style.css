@@ -1,0 +1,32 @@
+body {
+    background-color: lightblue;
+  }
+  #wrapper {
+    width: 400px;
+    margin: 30px auto;
+    color: white;
+    text-align: center;
+  }
+  h1 {
+    color: black;
+  }
+  p {
+    font-size: 32px;
+    color: blueviolet;
+  }
+  button {
+    background-color: blue;
+    color: white;
+    border: 2px solid white;
+    font-size: 18px;
+    padding: 10px 20px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: white;
+    color: blue;
+    transition: 0.5s ease;
+  }
